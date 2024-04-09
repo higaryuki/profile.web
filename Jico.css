@@ -1,5 +1,7 @@
 body {
-background-color:whitesmoke;
+background-image:url(img/cool-background.png);
+/*border: solid 15px;;
+border-color: rgb(100, 100, 100);*/
 }
 
 h1{
@@ -21,7 +23,7 @@ b{
 
 .tit{
     background-color: darkgray;
-    width:35%;
+    width:20%;
 }
 
 .link{
@@ -35,16 +37,41 @@ b{
 
 .top1{
     background-color: white;
+    padding-top: 1%;
 }
 
 .koala{
-    width: 225px;
-    height: 225px;
+    width: 450px;
+    height: 450px;
     border-radius: 50%;
     float: left;
 }
 
 .pro{
-    text-indent: 15%;
-    font-size: 120%;
+    text-indent: 20%;
+    font-size: 200%;
+}
+
+.left{
+    float: left;
+    margin-left: 0%;
+}
+
+.right{
+    float: right;
+    margin-right: 0%;
+}
+
+.clear{
+    clear: both;
+}
+
+.manga{
+    margin-left: 50%;
+}
+
+.gray{
+    background-color: darkgrey;
+    width: 100%;
+    margin: 0%;
 }
